@@ -7,4 +7,4 @@
   var A: real;  
   A := m*g*h;
   write('A = ', A); // вывод в консоль
-end.    
+end.
