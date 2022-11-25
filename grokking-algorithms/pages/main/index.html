@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <title>Грокаем алгоритмы</title>
 </head>
 
@@ -12,39 +13,42 @@
     <header class="header">
         <div class="wrapper">
             <a href="./index.html"><span class="logo"></span></a>
-            <nav>
-                <ul>
-                    <li>Описание</li>
-                    <li>Где купить</li>
-                    <li>Для кого</li>
+            <nav class="header__navigation">
+                <ul class="header__navigation-list">
+                    <a href="#description"><li>Описание</li></a>
+                    <a href="#where-buy"><li>Где купить</li></a>
+                    <a href="#for-whom"><li>Для кого</li></a>
                 </ul>
             </nav>
         </div>
     </header>
 
     <div class="preface">
-        <div class="wrapper">
+        <div class="wrapper preface">
             <div class="preface__book-image">
                 <span class="book-image"></span>
             </div>
-            <div class="preface__title">
-                <h2>Лучшая книга
-                    для знакомства
-                    с алгоритмами</h2>
+            <div class="preface__text-with-button">
+                <div class="preface__title">
+                    <h2>Лучшая книга
+                        для знакомства
+                        с алгоритмами</h2>
+                </div>
+                <div class="preface__button">
+                    <button class="button">ПРОЛИСТАТЬ</button>
+                </div>
             </div>
-            <div class="preface__button">
-                <button class="button">ПРОЛИСТАТЬ</button>
-            </div>
+            
         </div>
     </div>
 
-    <div class="why">
+    <div id="description" class="why">
         <div class="wrapper">
             <div class="why__title">
                 <h2>Почему именно “Грокаем алгоритмы”?</h2>
             </div>
             <div class="why__main-content">
-                <p>Алгоритмы — это всего лишь пошаговые алгоритмы решения задач,
+                <p>Алгоритмы — это всего лишь пошаговые инструкции решения задач,
                     и большинство таких задач уже были кем-то решены,
                     протестированы и проверены.
                 </p>
@@ -57,7 +61,7 @@
         </div>
     </div>
 
-    <div class="where-buy">
+    <div id="where-buy" class="where-buy">
         <div class="wrapper">
             <div class="where-buy__title">
                 <h2>ГДЕ КУПИТЬ?</h2>
@@ -93,21 +97,21 @@
         </div>
     </div>
 
-    <div class="for-whom">
+    <div id="for-whom" class="for-whom">
         <div class="wrapper">
             <div class="for-whom__title">
                 <h2>КОМУ ПОДХОДИТ</h2>
             </div>
             <div class="for-whom__items">
-                <div class="for-whom_item">
+                <div class="for-whom__item">
                     <img class="for-whom__item-img" src="../../assets/images/self-learner.png">
                     <p>САМОУЧКАМ</p>
                 </div>
-                <div class="for-whom_item">
+                <div class="for-whom__item">
                     <img class="for-whom__item-img" src="../../assets/images/student.png">
                     <p>СТУДЕНТАМ</p>
                 </div>
-                <div class="for-whom_item">
+                <div class="for-whom__item">
                     <p>И ВООБЩЕ ВСЕМ</p>
                 </div>
             </div>

@@ -1,0 +1,39 @@
+.preface {
+    display: flex;
+}
+
+.preface__book-image {
+    position: relative;
+    width: 477px;
+    height: 569px;
+    right: 41px;
+    margin-top: 79px;
+}
+
+.book-image {
+    float: left;
+    width: 477px;
+    height: 569px;
+    background: url('../images/book.png');
+}
+
+.preface__text-with-button {
+    position: relative;
+    left: 74px;
+    display: flex;
+    flex-direction: column;
+    max-width: 306px;
+    margin-top: 107px;
+    margin-right: 264px;
+}
+
+.preface__title {
+    float: right;
+    width: 306px;
+    height: 176px;
+    margin-bottom: 45px;
+}
+
+.preface__button {
+    float: right;
+}

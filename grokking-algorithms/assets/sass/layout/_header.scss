@@ -1,0 +1,23 @@
+.logo {
+    float: left;
+    width: 190px;
+    height: 40px;
+    background: url('../icons/logo.svg');
+    margin-top: 75px;
+    margin-left: 214px;
+}
+
+.header__navigation {
+    float: right;
+    margin-top: 64px;
+    padding-right: 188px;
+}
+
+.header__navigation-list {
+    a {
+        color: #000000;
+        li:hover {
+            text-decoration-line: underline;
+        }
+    }
+}
