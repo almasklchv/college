@@ -6,8 +6,29 @@
     position: relative;
     width: 477px;
     height: 569px;
-    right: 41px;
+    right: 107px;
     margin-top: 79px;
+    margin-right: 138px;
+}
+
+.preface:first-child:before {
+    position: relative;
+    left: -16px;
+    top: -25px;
+    content: '';
+    width: 282.56px;
+    height: 315.61px;
+    background: url('../images/lamp-1.png');
+}
+
+.preface:first-child:after {
+    position: absolute;
+    left: 1066px;
+    top: 373px;
+    content: '';
+    width: 214.6px;
+    height: 230.42px;
+    background: url('../images/lamp-2.png');
 }
 
 .book-image {
@@ -19,7 +40,7 @@
 
 .preface__text-with-button {
     position: relative;
-    left: 74px;
+    right: 121px;
     display: flex;
     flex-direction: column;
     max-width: 306px;
