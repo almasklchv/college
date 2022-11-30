@@ -361,7 +361,7 @@ p {
   font-family: "Raleway";
   font-size: 2.4rem;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 43px;
 }
 
 .where-buy__item-link a {
@@ -414,6 +414,10 @@ pre a:hover {
   margin-left: 214px;
 }
 
+.logo:hover {
+  background: url("../icons/logo_hover.png");
+}
+
 .header__navigation {
   float: right;
   margin-top: 64px;
@@ -427,6 +431,59 @@ pre a:hover {
   text-decoration-line: underline;
 }
 
+.footer {
+  margin-top: 304px;
+  margin-bottom: 80px;
+}
+.footer pre {
+  margin-left: 213px;
+}
+
+.footer__social-media-group {
+  margin-top: -64px;
+  margin-right: 220px;
+}
+
+.footer__social-media-item {
+  margin-left: 23px;
+}
+
+.telegram_ico {
+  float: right;
+  content: "";
+  width: 29.26px;
+  height: 29.36px;
+  background: url("../icons/telegram_ico.svg");
+}
+
+.telegram_ico:hover {
+  background: url("../icons/telegram_hover.png");
+}
+
+.instagram_ico {
+  float: right;
+  content: "";
+  width: 29.26px;
+  height: 29.26px;
+  background: url("../icons/instagram_ico.svg");
+}
+
+.instagram_ico:hover {
+  background: url("../icons/instagram_hover.png");
+}
+
+.youtube_ico {
+  float: right;
+  content: "";
+  width: 41.57px;
+  height: 29.36px;
+  background: url("../icons/youtube_ico.svg");
+}
+
+.youtube_ico:hover {
+  background: url("../icons/youtube_hover.png");
+}
+
 .preface {
   display: flex;
 }
@@ -435,7 +492,7 @@ pre a:hover {
   position: relative;
   width: 477px;
   height: 569px;
-  right: 107px;
+  right: 136px;
   margin-top: 79px;
   margin-right: 138px;
 }
@@ -451,9 +508,10 @@ pre a:hover {
 }
 
 .preface:first-child:after {
-  position: absolute;
-  left: 1066px;
-  top: 373px;
+  position: relative;
+  margin-left: -248px;
+  top: 261px;
+  right: 155px;
   content: "";
   width: 214.6px;
   height: 230.42px;
@@ -469,7 +527,7 @@ pre a:hover {
 
 .preface__text-with-button {
   position: relative;
-  right: 121px;
+  right: 154px;
   display: flex;
   flex-direction: column;
   max-width: 306px;
@@ -486,6 +544,155 @@ pre a:hover {
 
 .preface__button {
   float: right;
+}
+
+.why__title {
+  margin-top: 120px;
+  margin-left: 341px;
+}
+
+.why__main-content {
+  width: 877px;
+  margin-top: 116px;
+  margin-left: 214px;
+}
+.why__main-content p:first-child {
+  margin-bottom: 42px;
+}
+
+#description::after {
+  position: relative;
+  float: left;
+  content: "";
+  width: 144.89px;
+  height: 112.57px;
+  bottom: 285px;
+  left: 1195px;
+  background: url("../icons/code.png");
+}
+
+.where-buy__title {
+  margin-top: 177px;
+  margin-left: 443px;
+}
+
+/*.where-buy__main-content {
+    margin-top: 139px;
+    margin-left: -17px;
+}*/
+.where-buy__items {
+  display: flex;
+  margin-top: 139px;
+  margin-left: 127px;
+}
+
+.where-buy__item:first-child {
+  margin: 0;
+}
+
+.where-buy__item {
+  position: relative;
+  width: 202px auto;
+  height: 259px;
+  margin-left: 144px;
+}
+
+.where-buy__item-card {
+  position: relative;
+  width: 202px;
+  height: 202px;
+  background: #D9D9D9;
+  border-radius: 20px;
+}
+
+.card-img {
+  position: absolute;
+  margin: 33px;
+  width: 138px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.8588235294);
+}
+
+.flip-kz {
+  background: url("../icons/flip_ico.png") center;
+}
+
+.meloman-kz {
+  background: url("../icons/meloman_ico.png") center;
+}
+
+.marwin-kz {
+  background: url("../icons/marwin_ico.png") center;
+}
+
+.where-buy__item-link {
+  position: relative;
+}
+
+.flip {
+  top: 29px;
+  left: 68px;
+}
+
+.meloman {
+  top: 25px;
+  left: 31px;
+}
+
+.marwin {
+  top: 25px;
+  left: 42px;
+}
+
+.for-whom__items {
+  display: flex;
+  margin-top: 139px;
+  margin-left: 182px;
+}
+
+.for-whom__title {
+  margin-top: 257px;
+  margin-left: 531px;
+}
+
+.for-whom__item {
+  width: 278.38px;
+  height: 278.38px;
+  border-radius: 100%;
+  background: #F3F3F3;
+  margin-left: 58.86px;
+}
+
+.self-learner_img {
+  margin-top: 6px;
+  margin-left: -14px;
+}
+
+.self-learner_text {
+  margin-top: -50px;
+  margin-left: 44px;
+}
+
+.student_img {
+  margin-top: 3px;
+  margin-left: 53px;
+}
+
+.student_text {
+  margin-top: -12px;
+  margin-left: 49px;
+}
+
+.all_text {
+  text-align: center;
+  margin-top: 96px;
+}
+
+@media (min-width: 1540px) {
+  #description::after {
+    left: 1440px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

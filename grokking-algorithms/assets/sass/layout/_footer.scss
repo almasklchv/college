@@ -1,0 +1,53 @@
+.footer {
+    margin-top: 304px;
+    margin-bottom: 80px;
+    pre {
+        margin-left: 213px;
+    }
+}
+
+.footer__social-media-group {
+    margin-top: -64px;
+    margin-right: 220px;
+}
+
+
+.footer__social-media-item  {
+    margin-left: 23px;
+}
+
+.telegram_ico {
+    float: right;
+    content: '';
+    width: 29.26px;
+    height: 29.36px;
+    background: url('../icons/telegram_ico.svg');
+}
+
+.telegram_ico:hover {
+    background: url('../icons/telegram_hover.png');
+}
+
+.instagram_ico {
+    float: right;
+    content: '';
+    width: 29.26px;
+    height: 29.26px;
+    background: url('../icons/instagram_ico.svg');
+}
+
+.instagram_ico:hover {
+    background: url('../icons/instagram_hover.png');
+}
+
+.youtube_ico {
+    float: right;
+    content: '';
+    width: 41.57px;
+    height: 29.36px;
+    background: url('../icons/youtube_ico.svg');
+}
+
+.youtube_ico:hover {
+    background: url('../icons/youtube_hover.png');
+}

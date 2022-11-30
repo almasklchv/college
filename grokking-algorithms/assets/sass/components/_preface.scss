@@ -6,7 +6,7 @@
     position: relative;
     width: 477px;
     height: 569px;
-    right: 107px;
+    right: 136px;
     margin-top: 79px;
     margin-right: 138px;
 }
@@ -22,9 +22,10 @@
 }
 
 .preface:first-child:after {
-    position: absolute;
-    left: 1066px;
-    top: 373px;
+    position: relative;
+    margin-left: -248px;
+    top: 261px;
+    right: 155px;
     content: '';
     width: 214.6px;
     height: 230.42px;
@@ -40,7 +41,7 @@
 
 .preface__text-with-button {
     position: relative;
-    right: 121px;
+    right: 154px;
     display: flex;
     flex-direction: column;
     max-width: 306px;

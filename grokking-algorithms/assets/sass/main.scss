@@ -11,9 +11,14 @@
 // layout
 @import './layout/wrapper';
 @import './layout/header';
+@import './layout/footer';
 
 // components
 @import './components/preface';
+@import './components/description';
+@import './components/where-buy';
+@import './components/for-whom';
 
 
 // pages
+@import './pages/main/media';
