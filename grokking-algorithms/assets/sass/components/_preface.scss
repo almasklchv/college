@@ -1,0 +1,61 @@
+.preface {
+    display: flex;
+}
+
+.preface__book-image {
+    position: relative;
+    width: 477px;
+    height: 569px;
+    right: 136px;
+    margin-top: 79px;
+    margin-right: 138px;
+}
+
+.preface:first-child:before {
+    position: relative;
+    left: -16px;
+    top: -25px;
+    content: '';
+    width: 282.56px;
+    height: 315.61px;
+    background: url('../images/lamp-1.png');
+}
+
+.preface:first-child:after {
+    position: relative;
+    margin-left: -248px;
+    top: 261px;
+    right: 155px;
+    content: '';
+    width: 214.6px;
+    height: 230.42px;
+    background: url('../images/lamp-2.png');
+}
+
+.book-image {
+    float: left;
+    width: 477px;
+    height: 569px;
+    background: url('../images/book.png');
+}
+
+.preface__text-with-button {
+    position: relative;
+    right: 154px;
+    display: flex;
+    flex-direction: column;
+    max-width: 306px;
+    margin-top: 107px;
+    margin-right: 264px;
+}
+
+.preface__title {
+    float: right;
+    width: 306px;
+    height: 176px;
+    margin-bottom: 45px;
+}
+
+.preface__button {
+    float: right;
+}

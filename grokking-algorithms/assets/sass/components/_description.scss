@@ -1,0 +1,25 @@
+.why__title {
+    margin-top: 120px;
+    margin-left: 341px;
+}
+
+.why__main-content {
+    width: 877px;
+    margin-top: 116px;
+    margin-left: 214px;
+
+    p:first-child {
+        margin-bottom: 42px;
+    }
+}
+
+#description::after {
+    position: relative;
+    float: left;
+    content: '';
+    width: 144.89px;
+    height: 112.57px;
+    bottom: 285px;
+    left: 1195px;
+    background: url('../icons/code.png');
+}
